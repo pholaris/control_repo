@@ -4,4 +4,7 @@ node default {
     content => 'This is my pinche README\n',
     owner   => 'root',
   }
+   file {'/root/README':
+   owner   => 'root',
+  }
 }
